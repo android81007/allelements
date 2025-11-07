@@ -1,14 +1,15 @@
-export const getItemsList = () => {
-    const elementsList = document.querySelectorAll('.technology');
-    console.dir(elementsList);
+const getItemsList = () => {
+  const elementsList = document.querySelectorAll(".technology");
+  console.dir(elementsList);
+  return elementsList;
 };
 
 getItemsList();
 
-export const getItemsArray = () => {
-   const elementsItemsArray = document.querySelectorAll('.tool');
-console.dir(elementsItemsArray);
-const arry = Array.from(elementsItemsArray);
-console.log(arry);
+const getItemsArray = () => {
+  const elementsItemsArray = document.querySelectorAll(".tool");
+  console.dir(elementsItemsArray);
+  const arry = Array.from(elementsItemsArray);
+  return arry;
 };
 getItemsArray();
